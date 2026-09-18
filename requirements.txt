@@ -1,0 +1,48 @@
+# Recipe Meal Planner
+
+A CLI app to search recipes by ingredient, manage your pantry, and build grocery lists.
+
+## How It Works
+
+**API**: Uses TheMealDB API (free, no auth required)
+- `GET /filter.php?i={ingredient}` - Search recipes by ingredient
+- `GET /lookup.php?i={meal_id}` - Get full recipe details
+
+**Data Storage**: 
+- `pantry.json` - Stores your ingredients
+- `favorites.json` - Stores recipes you like
+
+**Main Features**:
+1. Search recipes from TheMealDB by ingredient name
+2. Compare recipe ingredients against your pantry
+3. View missing ingredients for each recipe
+4. Save favorite recipes
+5. Generate a grocery list from all saved recipes
+
+## Installation
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Running
+
+```bash
+python recipe_planner.py
+```
+
+## How to Use
+
+1. Start by adding ingredients to your pantry
+2. Search recipes by ingredient
+3. See which ingredients you're missing
+4. Save recipes you like
+5. Build a grocery list from all saved recipes
+
+## Files
+
+- `recipe_planner.py` - Main app
+- `pantry.json` - Your ingredients
+- `favorites.json` - Saved recipes
