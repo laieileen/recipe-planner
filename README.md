@@ -2,7 +2,7 @@
 
 Stop staring at your fridge wondering what to cook. Search recipes by ingredient, save your favorites, and build a grocery list from what you're actually missing.
 
-**[Try it here →](https://YOUR_USERNAME.github.io/recipe-planner)**
+**[Try it here →](https://laieileen.github.io/recipe-planner)**
 
 ## How It Works
 
